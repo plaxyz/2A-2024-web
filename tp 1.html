@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>TP 1 - Horacio Aman</title>
+            
+        </head>
+<body>
+    <h1>TP 1 - Redes - Horacio Aman</h1>
+    <ol>
+        <li>Enumere los componentes de una red y describa su uso.</li>
+        <br>
+        <li>Enumere la pila de protocolos TCP/IP y su modelo de referencia OSI (dibujo y explicación)</li>
+        <br>
+        <li>¿En qué consiste el concepto de segmentación y encapsulación? Describa cómo se realizan estos procesos.</li>
+        <br>
+        <li>Explique cuáles son los medios de transmisión de la información entre hosts.</li>
+        <br>
+        <li>Explique el funcionamiento la capa de red e IP.</li>
+        <br>
+        <li>¿Cuáles son y cómo se conforman las direcciones IPv4 clase A, B y C?</li>
+        <br>
+        <li>Describa en qué consiste la máscara de subred y el funcionamiento de esta.</li>
+    </ol>
+
+    <h2>Respuestas</h2>
+
+
+    <h3>1. Estos son los componentes de una red y sus usos:</h3> <!--Lista grande-->
+    <ol type="a">
+        <li><b>Host</b> (también llamados "<b>equipos terminales</b>")<!--Lista mediana-->
+            <ul>
+                <br>
+                <li><b>Clientes:</b> Tienen software que solicitan y muestran información obtenida de servidores</li>
+                <li><b>Servidores:</b> Computadoras que poseen software que pueden proveer información (ej.: email, páginas, etc) a otros dispositivos en la red.</li>
+                <li><b>PCs:</b> Como los servidores, son computadoras capaces de poseer software de servidores, y proveer información tal como un servidor. Son menos potentes que los servidores.</li>
+                <li><b>Otros equipos terminales:</b></li>
+                    <ol type="i"><!--Lista chica-->
+                        <li>Impresoras</li>
+                        <li>Teléfonos IP</li>
+                    </ol>
+            </ul>
+
+            <li><b>Dispositivos intermedios</b></li>
+                <ul>
+                    <li>Conectan a los dispositivos terminales a la red</li>
+                    <li>Proveen conectividad</li>
+                    <li>Utilizan las direcciones de los dispositivos terminales para saber a dónde mandar los mensajes.</li>
+                    <h4>Ejemplos de dispositivos intermedios:</h4>
+                        <ol type="i">
+                            <li>Switch Capa 2</li>
+                            <li>Switch multicapa</li>
+                            <li>Router</li>
+                            <li>Router Wireless</li>
+                        </ol>
+                </ul>
+        </li>
+
+    </ol>
+
+    <h3>2a. Pila de protocolos TCP/IP:</h3>
+            <ol>
+                <li>Aplicación</li>
+                <li>Transporte</li>
+                <li>Internet</li>
+                <li>Acceso a la red</li>
+            </ol>
+    <h3>2b. Modelo de referencia OSI:</h3>
+        <p>Los modelos de referencia nos proveen con las herramientas necesarias para entender las relaciones entre los protocolos, y del lenguaje para describir las funciones y capacidades de la red de datos. También, brinda una lista de las funciones que deben ocurrir en cada capa.</p>
+        <p>Están separados en 7 capas, al contrario como en el caso de TCP/IP.</p>
+        <p>Acá estan separadas en color para demostrar en qué parte del modelo TCP/IP estaría.</p>
+        <p style="color: rgb(80, 80, 80);">Aplicación</p>
+        <p style="color: rgb(255, 106, 106);">Acceso a la red</p>
+            <ol reversed>
+                <li style="color: rgb(80, 80, 80);">Aplicación</li>
+                <li style="color: rgb(80, 80, 80);">Presentación</li>
+                <li style="color: rgb(80, 80, 80);">Sesión</li>
+                <li>Transporte</li>
+                <li>Red</li>
+                <li style="color: rgb(255, 106, 106);">Enlace de datos</li>
+                <li style="color: rgb(255, 106, 106);">Física</li>
+            </ol>
+
+            <img src="modelo-OSI.jpg" alt="imagen de una piramide con el modelo OSI" width="360px" height="360px">
+</body>
+
+
+
+</html>
