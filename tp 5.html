@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 5 - Horacio Aman</title>
+</head>
+<body>
+    <h1>"El Mejor Restaurante"</h1>
+    <table>
+        <caption>Menú</caption><!--cabecera de la tabla-->
+        <thead>
+            <tr>
+                <th>Plato principal</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Milanesa de pollo con papas</td>
+                <td>Milanesa de pollo (frita o al horno, a elección) <br> con una guarnición de papas</td>
+                <td>$15.000</td>
+            </tr>
+            <tr>
+                <td>Pizza de muzza</td>
+                <td>Pizza hecha a piedra<br> Opcional: Porción de fainá</td>
+                <td>$10.000</td>
+            </tr>
+            <tr>
+                <td>Docena de Empanadas</td>
+                <td>Sabores: JyQ, carne, pollo, verdura, <br> capresse, humita</td>
+                <td>$12.000</td>
+            </tr>
+            <tr>
+                <td>Asado completo</td>
+                <td>Asado completo con chorizo, queso provolone y condimentos</td>
+                <td>$20.000</td>
+            </tr>
+            <tr>
+                <td>Pasta a elección</td>
+                <td>Fideos: Espaguetis, ravioles, tallarines <br>Salsas: Salsa roja, blanca, rosa, con vino</td>
+                <td>$8.000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Bebidas: Gaseosas: Coca-Cola, Sprite, Fanta <br>Jugos: Naranja, Manzana <br>Otros: Agua, Soda</td>
+            </tr>
+        </tfoot>
+    </table>
+        <h1>Hacé tu reserva &#128071;</h1>
+    <form action="mailto:" method="post">
+
+        <label for="nombre">Nombre y apellido</label>
+        <input type="text" name="nombre" required>
+
+        <label for="telefono">Número de teléfono</label>
+        <input type="tel" name="numero" required>
+
+        <label for="personas">Personas</label>
+        <input type="number" min="1" max="8" name="personas" required>
+
+        <label for="fecha">Fecha</label>
+        <input type="date" name="fecha" required>
+
+        <label for="hora">Hora</label>
+        <input type="time" name="hora" required>
+
+        <br>
+
+        <label for="comentarios">Comentarios (opcional)</label>
+        <textarea name="comentarios"></textarea>
+
+        <button type="submit">Reservar</button>
+
+    </form>
+</body>
+</html>
