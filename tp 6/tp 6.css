@@ -1,0 +1,157 @@
+h1{
+    color: #2f4f4f;
+    font-size: 50px;
+    font-family: DM Sans;
+    text-align: center;
+    text-shadow: 0 0 10px #080e0e;
+    transition: ease-in-out 0.2s;
+    margin-top: -20px;
+}
+
+h1:hover{
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #365c5c;
+}
+
+h1:active{
+    font-weight: 950;
+    color: #4f8686;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2{
+    font-size: 30px;
+    font-family: DM Sans;
+    text-align: center;
+    background: linear-gradient(
+        to right,
+        #8bd6d620,
+        #54838320,
+        #8bd6d620
+    );
+    background-clip: text;
+    color: transparent;
+    background-size: 200% auto;
+    animation: gradientAnimation 1s linear infinite;
+}
+
+h3{
+    color: #477575;
+    font-family: DM Sans;
+    text-shadow: 0 0 10px #080e0e;
+}
+
+body{
+    background-color: #121f1f;
+    justify-content: center;
+    align-items: center;
+}
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-franklin {
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+p{
+    color: #548383;
+    font-family: Libre Franklin;
+    font-size: 22px;
+    text-align: center;
+    text-shadow: 0 0 5px #121b1b;
+    transition: cubic-bezier(0.68, -0.55, 0.27, 1.55) 0.3s;
+}
+
+p:hover{
+    letter-spacing: 3px;
+    color: #628d8d;
+}
+
+ol, ul, li{
+    color: #548383;
+    font-family: Libre Franklin;
+    font-size: 20px;
+    text-shadow: 0 0 5px #121b1b;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pag{
+    overflow: hidden;
+    transition: ease-in-out 0.2s;
+    background: linear-gradient(
+        to right,
+        #8bd6d6,
+        #548383,
+        #8bd6d6
+    );
+    background-clip: text;
+    color: transparent;
+    background-size: 200% auto;
+    animation: gradientAnimation 3s linear infinite;
+}
+
+@keyframes gradientAnimation{
+    0%{
+        background-position: 200% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.pag:hover{
+    letter-spacing: 1px;
+    color: #365c5c;
+}
+
+.pag:active{
+    color: #294444;
+}
+
+label{
+    color: #548383;
+    font-family: Libre Franklin;
+    font-size: 20px;
+    text-shadow: 0 0 5px #121b1b;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+input{
+    resize: none;
+    background-color: #080e0e;
+    border: none;
+    color: white;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    color: #548383;
+    font-family: Libre Franklin;
+    font-size: 20px;
+    text-shadow: 0 0 5px #121b1b;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+button:hover{
+    text-decoration: underline;
+}
