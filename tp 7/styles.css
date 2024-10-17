@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20;
+    padding: 0;
+}
+
+header, nav, main, aside, footer {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+header {
+    background-color: #eeeeee;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+main {
+    width: 60%;
+    float: left;
+    margin-right: 2%;
+}
+
+aside {
+    width: 35%;
+    float: left;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+footer {
+    clear: both;
+    background-color: #f8f8f8;
+}
