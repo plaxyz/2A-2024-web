@@ -1,0 +1,45 @@
+/* Estilo inicial */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.content {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 20px;
+    border: 3px;
+    border-color: #ccc;
+    border-style: dashed;
+}
+
+.sidebar {
+    background-color: #efefef;
+    padding: 10px;
+    margin: 20px;
+}
+
+.sidebar p, h1 {
+    padding: 20px;
+}
+
+.content p, h1 {
+    padding: 20px;
+}
+
+.footer p {
+    padding: 20px;
+    margin: 0;
+}
