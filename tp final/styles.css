@@ -1,0 +1,80 @@
+/* General */
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #2E2A24;
+    color: #D1C18F;
+    margin: 0;
+}
+
+header, footer {
+    text-align: center;
+    background-color: #3B7634;
+    color: white;
+    padding: 10px;
+}
+
+/* Navegación */
+nav a {
+    color: #D1C18F;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #FFF;
+}
+
+/* Secciones */
+.intro, .timeline, .contacto, .redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+section {
+    padding: 20px;
+    background-color: #4D4A47;
+    border-radius: 8px;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+}
+
+label, input, textarea {
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    padding: 10px;
+    background-color: #3B7634;
+    color: #FFF;
+}
+
+/* Layout de dos columnas */
+.timeline {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.timeline article {
+    flex: 1 1 45%;
+    margin: 10px;
+    padding: 15px;
+    background-color: #3B7634;
+    color: #FFF;
+    border-radius: 8px;
+}
+
+.contacto, .redes {
+    max-width: 50%;
+    margin: 20px auto;
+}
